@@ -1,0 +1,8 @@
+{
+	"sans": [
+		"jennistore.me"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/03f5fadfa55eafe7cf8e206bcd2fddff6940"
+	}
+}

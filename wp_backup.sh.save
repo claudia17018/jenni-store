@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Title         :wp_backup.sh
+# Author        :Julio Sanz
+# Website       :www.elarraydejota.com
+# Data          :20150717
+# Description   :Useful script to backup a WordPress Blog. It backups both WordPress files (contents, core files...) and WordPress database
+# Usage         :bash wp_backup.sh
+# License       :GPLv3
+#
+########################################################################################################
+ 
+# VARIABLES
+# Date variable for everyday. It will have the format 20150507 -> year 2015, month 05, day 07
+v_date=`date +%F | tr -s  "-" " " | tr -d " "`
+# WordPress database user
+wpdb_user="your_wordpress_database_user"
+# WordPress database password
+wpdb_pass="your_wordpress_database_pass"
+# W name
+wpdb_dbname="your_wordpress_database_name"
+# Email to send a no

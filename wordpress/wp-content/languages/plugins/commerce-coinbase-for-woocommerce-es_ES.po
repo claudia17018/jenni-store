@@ -1,0 +1,105 @@
+# Translation of Plugins - Coinbase Commerce For WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Coinbase Commerce For WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-13 15:40:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Coinbase Commerce For WooCommerce - Stable (latest release)\n"
+
+#: coinbase-gateway-for-woocommerce.php:210
+msgid "Pay with Coinbase Commerce Payment Gateway"
+msgstr "Pagar con la pasarela Coinbase Commerce Payment Gateway"
+
+#: coinbase-gateway-for-woocommerce.php:205
+msgid "Coinbase Commerce Payment Gateway"
+msgstr "Pasarela Coinbase Commerce Payment"
+
+#: coinbase-gateway-for-woocommerce.php:203
+msgid "Coinbase Commerce"
+msgstr "Coinbase Commerce"
+
+#: coinbase-gateway-for-woocommerce.php:78
+msgid "Coinbase Commerce Gateway"
+msgstr "Pasarela Coinbase Commerce"
+
+#. Plugin Name of the plugin
+msgid "Coinbase Commerce For WooCommerce"
+msgstr "Coinbase Commerce For WooCommerce"
+
+#: coinbase-gateway-for-woocommerce.php:432
+msgid "Demo PRO"
+msgstr "Demostración de la versión PRO"
+
+#: coinbase-gateway-for-woocommerce.php:426
+msgid "Go PRO"
+msgstr "Hazte PRO"
+
+#: coinbase-gateway-for-woocommerce.php:378
+msgid "to use this plugin."
+msgstr "para usar este plugin."
+
+#: coinbase-gateway-for-woocommerce.php:378
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#: coinbase-gateway-for-woocommerce.php:378
+msgid "Please activate"
+msgstr "Por favor, activa"
+
+#: coinbase-gateway-for-woocommerce.php:254
+msgid "Awaiting cheque payment"
+msgstr "A la espera del pago del cheque"
+
+#: coinbase-gateway-for-woocommerce.php:221
+msgid "Instructions will be added to the thank you page and order email, Customers will se at checkout"
+msgstr "Las instrucciones se añadirán a la página de agradecimiento y al correo electrónico del pedido. Los clientes las verán al pagar"
+
+#: coinbase-gateway-for-woocommerce.php:217
+#: coinbase-gateway-for-woocommerce.php:219
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: coinbase-gateway-for-woocommerce.php:214
+msgid "Add a new description for Coinbase Commerce Payment Gateway, Customers will se at checkout"
+msgstr "Añade una nueva descripción para la pasarela de pago Coinbase Commerce que los clientes verán al pagar"
+
+#: coinbase-gateway-for-woocommerce.php:212
+msgid "Please checkout with Coinbase Commerce to place order"
+msgstr "Por favor, paga con Coinbase Commerce para realizar el pedido"
+
+#: coinbase-gateway-for-woocommerce.php:207
+msgid "Add a new title for Coinbase Commerce Payment Gateway, Customers will se at checkout"
+msgstr "Añade un nuevo título para la pasarela de pago Coinbase Commerce Payment que los clientes verán al pagar"
+
+#: coinbase-gateway-for-woocommerce.php:199
+msgid "Enable or Disable Coinbase Payments"
+msgstr "Activar o desactivar los pagos de Coinbase"
+
+#: coinbase-gateway-for-woocommerce.php:197
+msgid "Enabled/ Disabled"
+msgstr "Activado / Desactivado"
+
+#: coinbase-gateway-for-woocommerce.php:79
+msgid "Coinbase Commerce Redirects to Coinbase Off-Site Checkout"
+msgstr "Coinbase Commerce redirige al pago de Coinbase fuera del sitio"
+
+#. Author URI of the plugin
+msgid "https://www.linkedin.com/in/syed-muhammad-usman/"
+msgstr "https://www.linkedin.com/in/syed-muhammad-usman/"
+
+#. Author of the plugin
+msgid "SCI Intelligencia"
+msgstr "SCI Intelligencia"
+
+#. Description of the plugin
+msgid "Coinbase Commerce For WooCommerce, Let your customer checkout with well known payment gateway."
+msgstr "Coinbase Commerce For WooCommerce permite a tus clientes pagar con la conocida pasarela de pago."
+
+#. Plugin URI of the plugin
+msgid "https://www.scintelligencia.com/"
+msgstr "https://www.scintelligencia.com/"

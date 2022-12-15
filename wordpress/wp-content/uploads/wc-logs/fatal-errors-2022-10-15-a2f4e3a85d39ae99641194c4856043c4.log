@@ -1,0 +1,18 @@
+2022-10-15T05:49:39+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 1392640 bytes) en /var/www/html/wp-content/themes/astra/assets/svg/svgs.json en la línea 1
+
+2022-10-15T05:49:40+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/class.wp-styles.php en la línea 185
+
+2022-10-15T21:50:24+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 212992 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-15T22:00:17+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 585728 bytes) in /var/www/html/wp-includes/pomo/streams.php on line 220
+
+2022-10-15T23:09:51+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 65536 bytes) en /var/www/html/wp-content/plugins/ultimate-member/includes/class-init.php en la línea 440
+
+2022-10-15T23:09:51+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 65536 bytes) en /var/www/html/wp-content/plugins/wpforms-lite/includes/class-fields.php en la línea 106
+
+2022-10-15T23:09:53+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 1392640 bytes) en /var/www/html/wp-content/themes/astra/inc/builder/controllers/class-astra-builder-ui-controller.php en la línea 39
+
+2022-10-15T23:44:34+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-15T23:47:22+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+

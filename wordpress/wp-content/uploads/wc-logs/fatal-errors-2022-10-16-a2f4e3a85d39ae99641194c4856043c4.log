@@ -1,0 +1,160 @@
+2022-10-16T00:35:18+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-16T00:38:08+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 20480 bytes) en /var/www/html/wp-includes/functions.php en la línea 4801
+
+2022-10-16T00:57:47+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-16T01:11:12+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-16T01:14:48+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 126976 bytes) en /var/www/html/wp-includes/wp-db.php en la línea 2135
+
+2022-10-16T03:56:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en /var/www/html/wp-includes/pomo/mo.php en la línea 280
+
+2022-10-16T04:13:51+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 1392640 bytes) en /var/www/html/wp-content/themes/astra/inc/builder/controllers/class-astra-builder-ui-controller.php en la línea 39
+
+2022-10-16T04:13:51+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 1392640 bytes) en /var/www/html/wp-content/themes/astra/inc/builder/controllers/class-astra-builder-ui-controller.php en la línea 39
+
+2022-10-16T04:14:34+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:35+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:37+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:38+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:38+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T04:14:44+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+
+2022-10-16T05:28:10+00:00 CRITICAL Uncaught Error: Call to undefined function CFVSW\Compatibility\astra_get_option() in /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php:84
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Compatibility\Astra->is_required_astra_page(false)
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(764): apply_filters('cfvsw_requires_...', false)
+#3 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(751): CFVSW\Inc\Swatches->requires_global_settings()
+#4 /var/www/html/wp-content/plugins/variation-swatches-woo/inc/swatches.php(510): CFVSW\Inc\Swatches->is_required_page()
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): CFVSW\Inc\Swatches->enqueue_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-i en /var/www/html/wp-content/plugins/variation-swatches-woo/compatibility/astra.php en la línea 84
+

@@ -1,0 +1,4 @@
+2022-12-04T04:31:11+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 20480 bytes) en /var/www/html/wp-includes/functions.php en la línea 4801
+
+2022-12-04T04:31:11+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 12288 bytes) en /var/www/html/wp-includes/functions.php en la línea 4540
+

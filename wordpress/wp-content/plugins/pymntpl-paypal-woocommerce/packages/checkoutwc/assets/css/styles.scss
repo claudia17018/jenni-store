@@ -1,0 +1,15 @@
+#cfw-payment-request-buttons {
+  .wc-ppcp-checkoutwc-express__container {
+    list-style: none;
+    max-width: 300px !important;
+    max-height: none;
+
+    #wc-ppcp-express-button {
+      display: flex;
+
+      .paypal-buttons {
+        margin: 0 5px;
+      }
+    }
+  }
+}

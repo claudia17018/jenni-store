@@ -1,0 +1,4 @@
+/vendor
+/phpunit-9.0.phar
+/.idea
+/build
